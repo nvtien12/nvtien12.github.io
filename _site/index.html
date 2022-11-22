@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This Is Home Page</title>
+    <!-- main css -->
+    <link rel="stylesheet" href="./main/main.css">
+    <!-- font chữ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+
+</head>
+ 
+
+<body>
+
+
+    <!-- overlay -->
+<section id="overlay"></section>
+<!-- <header> -->
+<header>
+    <div class="contarnei">
+        <nav class="navbar">
+            <!-- logo -->
+            <div class="navbar__logo">
+                <img src="./img/logo.png" alt="website logo" />
+
+            </div>
+            <!-- link -->
+            <ul class="navbar__links">
+                <li class="navbar__link"><a href="index.html">Home</a></li>
+                <li class="navbar__link"><a href="about.html">About Me</a></li>
+                <li class="navbar__link"><a href="education.html">Education</a></li>
+                <li class="navbar__link"><a href="works.html">Works</a></li>
+                <li class="navbar__link"><a href="new.html">New</a></li>
+                <a href="wwcontact.html"><button class="navbar__btn">Contact</button></a>
+            </ul>
+            <!-- menu button -->
+            <div class="navbar__icons">
+                <div class="navbar__icon"></div>
+
+            </div>
+
+        </nav>
+    </div>
+</header> 
+    <title style="font-size:200%; text-transform: capitalize">Home</title>
+
+
+<h2 style="font-size: 150%;" ></h2>
+
+
+<!-- banner -->
+<section id="banner">
+    <div class="contarnei">
+        <!-- img -->
+        <div class="banner__img">
+            <img src="./img/banner3.png" alt="Computer">
+        </div>
+        <div class="banner__heading">
+            <h3>Xin chào, tôi là Tiến</h3>
+            <p>Tôi viết blog này vào ngày 08/11/2022. Là nơi tôi ghi thông cá nhân về quá trình học tập và làm việc của mình</p>
+            <a href="about.html"><button class="banner__btn">View More</button></a>
+            <div class="banner__socials">
+                <a href="https://github.com/nvtien12/nvtien12.github.io"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/nguyenvantien727/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/vtmbmt1125"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="about">
+    <div class="contarnei">
+        <!-- heading -->
+        <h2>ABOUT ME</h2>
+        <div class="things__item">
+            <figure>
+                <!-- img -->
+                <img src="./img/cong viec.jpg" alt="Công Nghệ Thông Tin" />
+                <!-- text -->
+                <div class="things__item--heading">
+                    <h4>Tôi tên là Nguyễn Văn Tiến.</h4>
+                    <p>Mong muốn áp dụng những kiến thức đã học và kinh nghiệm tự tích luỹ của bản thân. Mong muốn làm việc trong lĩnh vực IT - Phần cứng - Mạng - Hỗ trợ kỹ thuật người dùng nội bộ công ty để phát huy khả năng của mình. Mong được học tập
+                        trao dồi kiến thức và phát triển trong ngành IT. Luôn cố gắng tìm tòi học hỏi cái mới và bổ sung kiến thức chuyên môn để nâng cao hiệu quả làm việc. Có khả năng test các sản phẩn cứng và phần mềm</p>
+                </div>
+            </figure>
+        </div>
+    </div>
+</section><section id="education">
+    <div class="container">
+        <h2>Education</h2>
+        <figure>
+            <div class="education__item">
+                <div class="education__item">
+                    <img src="./img/education.jpg" alt="education" />
+                </div>
+                <!-- text -->
+                <div class="education__item--heading">
+
+                    <h4> ĐẠI HỌC CÔNG NGHIỆP THÀNH PHỐ HỒ CHÍ MINH</h4>
+                    <br/>
+                    <p>09/2011-06/2015</p>
+                    <br>
+                    <p>Kỹ sư công nghệ kỹ thuật điện tử truyền thông</p>
+
+                </div>
+            </div>
+        </figure>
+    </div>
+</section><!-- banner -->
+<section id="banner">
+    <div class="contarnei">
+        <!-- img -->
+        <div class="banner__img">
+            <img src="./img/banner3.png" alt="Computer">
+        </div>
+        <div class="banner__heading">
+            <h3>{{site.title}}</h3>
+            <p>{{site.description}}</p>
+            <a href="about.html"><button class="banner__btn">View More</button></a>
+            <div class="banner__socials">
+                <a href="https://github.com/nvtien12/nvtien12.github.io"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/nguyenvantien727/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/vtmbmt1125"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{{site.pages}}
+
+
+<section id="works">
+    <div class="contarnei">
+        <!-- heading -->
+        <h2>New</h2>
+        </div>
+</section><section id="works">
+    <div class="contarnei">
+        <!-- heading -->
+        <h2>WORKS</h2>
+        <div class="works__item">
+            <!-- img -->
+            <img src="./img/it 1.jpg" alt="it" />
+            <!-- text -->
+            <div class="works__item--heading">
+
+                <h4> CÔNG TY CỔ PHẦN HỆ THỐNG CÔNG NGHỆ HOÀNG HẢI</h4>
+                <br/>
+                <p>2017 - 08/2018</p>
+                <br>
+                <p> Thi công dự án</p>
+                <br>
+                <p>Xử lí xự cố hệ thống công ty đối tác </p>
+            </div>
+        </div>
+        <div class="works__item">
+
+            <!-- img -->
+            <img src="./img/it 2.jpg" alt="it helpdesk" />
+            <!-- text -->
+            <div class="works__item--heading">
+
+                <h4>CÔNG TY TNHH TM TÂN LOAN </h4>
+                <br/>
+                <p>09/2018 - 03/2022</p>
+                <br>
+                <p>Quản lí fanpage và website công ty</p>
+                <br>
+                <p>Khắc phục sự cố thiết bị người dùng,quản lí hệ thông server, camera, router, switch, hệ thống mạng, liên lạc đối tác xư lí các sự cố gặp phải</p>
+            </div>
+
+        </div>
+    </div>
+
+</section><!-- footer -->
+<footer id="footer">
+    <div class="container">
+        <div class="banner__img">
+            <img src="./img/banner3.png" alt="Computer">
+
+        </div>
+
+
+        <!-- heading -->
+        <div class="footer__heading">
+            <h1>Ready to make something amazing?</h1>
+            <!-- contact -->
+            <div class="footer__contact">
+                <a href="tel:0941992552">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>0941992552</p>
+                </a>
+                <a href="mailto:vtmbmt1125@gmai.com">
+                    <i class="fas fa-envelope"></i>
+                    <p>vtmbmt1125@gmai.com</p>
+                </a>
+            </div>
+            <div class="banner__socials">
+                <a href="https://github.com/nvtien12"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/nguyenvantien727/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/vtmbmt1125"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+    <!-- kit font -->
+    <script src="https://kit.fontawesome.com/658d0965ec.js" crossorigin="anonymous"></script>
+    <!-- javascript -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
