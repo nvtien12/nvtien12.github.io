@@ -14,7 +14,7 @@ title: Home
         <div class="banner__heading">
             <h3>{{site.title}}</h3>
             <p>{{site.description}}</p>
-            <a href="about.html"><button class="banner__btn">View More</button></a>
+            <a href="#about"><button class="banner__btn">View More</button></a>
             <div class="banner__socials">
                 <a href="https://github.com/nvtien12/nvtien12.github.io"><i class="fa-brands fa-github"></i></a>
                 <a href="https://www.instagram.com/nguyenvantien727/"><i class="fa-brands fa-instagram"></i></a>
@@ -25,6 +25,15 @@ title: Home
 </section>
 
 
-{{site.pages}}
+
+<div id="about">{% include about.html %}</div>
+<div id="about">{% include education.html %}</div>
+<div id="about">{% include news.html %}</div>
+<div id="about">{% include works.html %}</div>
+<div id="about">{% include wwcontact.html %}</div>
+
+
+
+
 
 
