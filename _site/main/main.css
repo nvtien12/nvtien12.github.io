@@ -423,6 +423,24 @@ header {
     }
 }
 
+/* news */
+
+#news {
+    position: relative;
+    overflow-x: hidden;
+    margin-top: 3em;
+}
+
+#news h2 {
+    text-align: center;
+    color: var(--gray);
+    margin-bottom: 3em;
+}
+
+.news__item {
+    margin: 1em 0;
+}
+
 
 /* works */
 
