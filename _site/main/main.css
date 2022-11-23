@@ -215,7 +215,8 @@ header {
         margin-left: 50px;
     }
     .navbar__link a {
-        color: var(--gray);
+        font-size: 18px;
+        color:black;
     }
     .navbar__icons {
         display: none;
@@ -230,7 +231,7 @@ header {
 
 #banner {
     position: relative;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     align-items: center;
 }
@@ -246,7 +247,7 @@ header {
     max-width: 300px;
     margin: 0 auto;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 80px;
     color: var(--gray);
 }
 
@@ -306,7 +307,7 @@ header {
 #about {
     position: relative;
     overflow-x: hidden;
-    margin-top: 3em;
+    margin-top: 1em;
 }
 
 #about h2 {
